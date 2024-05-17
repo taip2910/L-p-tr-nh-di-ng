@@ -1,0 +1,18 @@
+[
+  {
+    "cid": 1,
+    "name": "Electronics"
+  },
+  {
+    "cid": 2,
+    "name": "Jewellery"
+  },
+  {
+    "cid": 3,
+    "name": "Men's Clothing"
+  },
+  {
+    "cid": 4,
+    "name": "Women's Clothing"
+  }
+]

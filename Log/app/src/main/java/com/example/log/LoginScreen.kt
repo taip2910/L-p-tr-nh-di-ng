@@ -19,46 +19,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import com.google.firebase.Firebase
+import com.google.firebase.database.database
 
 @Composable
 fun LoginScreen(navController: NavController) {
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        verticalArrangement =  Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Image(painter = painterResource(id = R.drawable.images), contentDescription ="Login image",
-            modifier = Modifier.size(200.dp))
+    // Write a message to the database
+    val database = Firebase.database
+    val myRef = database.getReference("message")
 
-        Text(text = "Login", fontSize = 28.sp, fontWeight = FontWeight.Bold)
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        OutlinedTextField(value = "", onValueChange = {}, label = {
-            Text(text = "Email")
-        })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        OutlinedTextField(value = "", onValueChange = {}, label = {
-            Text(text = "Password")
-        })
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        Button(onClick = { }) {
-            Text(text = "Login")
-        }
-
-        Spacer(modifier = Modifier.height(32.dp))
-
-        TextButton(onClick = {
-            navController.navigate("register")
-        }) {
-            Text(text = "Register")
-        }
-
-
-    }
+    myRef.setValue("Hello, World!")
 
 }

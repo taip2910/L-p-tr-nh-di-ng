@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "466120945917",
+    "project_id": "crud-50a69",
+    "storage_bucket": "crud-50a69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466120945917:android:48b72c7b1f362c344c8e94",
+        "android_client_info": {
+          "package_name": "com.netoloboapps.crudoperations"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANqLnG2IeXc69byV3rPL7LSg4iG0uDhYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

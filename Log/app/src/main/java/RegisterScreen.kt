@@ -50,7 +50,7 @@ fun RegisterScreen(navController : NavController){
         Spacer(modifier = Modifier.height(16.dp))
 
         OutlinedTextField(value = "", onValueChange = {}, label = {
-            Text(text = "Retype Password")
+            Text(text = "Retype  Password")
         })
 
         Spacer(modifier = Modifier.height(16.dp))

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1009119510567",
+    "firebase_url": "https://themsuaxoa-49ead-default-rtdb.firebaseio.com",
+    "project_id": "themsuaxoa-49ead",
+    "storage_bucket": "themsuaxoa-49ead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009119510567:android:00dfe138c6778929ac0e02",
+        "android_client_info": {
+          "package_name": "com.example.firebaseproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOL79Y05MOjzobvwIWaALv6y93_Qwpnzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009119510567:android:86e9dd23a863e4d0ac0e02",
+        "android_client_info": {
+          "package_name": "com.example.themsuaxoa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOL79Y05MOjzobvwIWaALv6y93_Qwpnzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
